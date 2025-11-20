@@ -1,0 +1,23 @@
+package week3;
+import java.util.Scanner;
+
+
+/**
+ * Write a description of class MathOperations here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class MathOperations
+{
+    public static void main(String[]arg)
+    {
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter the grade in number=");
+        int grade= sc.nextInt();
+        
+        String result=(grade>=40)?"pass":(grade<40)?"fail":"invalid input";
+        
+        System.out.println(result);
+    }
+}
